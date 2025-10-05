@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gresources>
+	<gresource prefix="/at/greyh/myip">
+		<file>icons/ip.png</file>
+	  <file>icons/wireguard-active.png</file>
+	  <file>icons/wireguard-inactive.png</file>
+	</gresource>
+</gresources>
