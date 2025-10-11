@@ -1,7 +1,6 @@
 # ip-docklet
 
-An IP docklet for Plank Reloaded.
-
+An IP docklet for [Plank Reloaded](https://github.com/zquestz/plank-reloaded).
 # Features
 Lightweight Plank docklet for Linux desktop environments that displays your current public IP address directly on the dock.
 Clicking the docklet copies the IP to clipboard.  
