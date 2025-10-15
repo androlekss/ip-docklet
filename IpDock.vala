@@ -23,7 +23,7 @@ public class IpDocklet : Object, Plank.Docklet
 
     public unowned string get_description()
     {
-        return _("A small myIP");
+        return _("Displays current public IP");
     }
 
     public unowned string get_icon()

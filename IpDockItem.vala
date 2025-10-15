@@ -121,6 +121,12 @@ public class IpDockItem : DockletItem
         return flag;
     }
 
+    protected override AnimationType on_hovered()
+    {
+        update_ip.begin();
+        return AnimationType.NONE;
+    }
+
     protected override AnimationType on_clicked(PopupButton button, Gdk.ModifierType mod, uint32 event_time)
     {
         if((button & PopupButton.LEFT) != 0)
