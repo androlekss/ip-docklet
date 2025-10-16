@@ -17,6 +17,7 @@ Includes optional WireGuard integration for quick VPN control.
 
 ## Method 1: Build from source
 
+```bash
 Clone the repository
 git clone https://github.com/androlekss/ip-docklet.git
 cd ip-docklet
@@ -25,6 +26,7 @@ Build and install
 meson setup --prefix=/usr build
 meson compile -C build
 sudo meson install -C build
+```
 
 # Setup
 After installation, open the Plank Reloaded settings, navigate to "Docklets", and drag and drop IP Docklet onto your dock.
